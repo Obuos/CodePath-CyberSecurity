@@ -16,7 +16,6 @@ Time spent: **X** hours spent in total
         ```
         <img src=1 onerror="alert(1)">
         ``` 
-        
         Use url: wp-content/themes/twentyfifteen/genericons/example.html#1
   - [x] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
