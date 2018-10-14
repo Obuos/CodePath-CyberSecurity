@@ -35,7 +35,8 @@ Time spent: **X** hours spent in total
   - [x] Summary: 
     - Vulnerability types: User Enumeartion from User Login
     - Tested in version :4.7.1
-  - [x] GIF Walkthrough: https://gfycat.com/WaryBraveImperialeagle
+  - [x] GIF Walkthrough: ![](https://github.com/Obuos/CodePath-CyberSecurity/blob/master/week7c.gif)
+  https://gfycat.com/WaryBraveImperialeagle
   - [x] Steps to recreate: 
         Use login id: admin and any password; the system will say the password for user is incorrect
         Use login id: joe and any password; the system will say invalid username
