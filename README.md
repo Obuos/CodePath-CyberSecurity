@@ -10,7 +10,8 @@ Time spent: **X** hours spent in total
   - [ ] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.1
-  - [ ] GIF Walkthrough: ![](https://gfycat.com/TartEnchantedGallowaycow)
+  - [ ] GIF Walkthrough: <img src="https://gfycat.com/TartEnchantedGallowaycow" width="800">
+  ![](https://gfycat.com/TartEnchantedGallowaycow)
   - [ ] Steps to recreate: 
         Add <img src=1 onerror="alert(1)" /> to the end of the url: wp-content/themes/twentyfifteen/genericons/example.html#1
   - [ ] Affected source code:
@@ -19,7 +20,8 @@ Time spent: **X** hours spent in total
   - [ ] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2.3
-  - [ ] GIF Walkthrough: ![](https://gfycat.com/OrnateFluffyDeinonychus)
+  - [ ] GIF Walkthrough: <img src="https://gfycat.com/OrnateFluffyDeinonychus" width="800">
+  ![](https://gfycat.com/OrnateFluffyDeinonychus)
   - [ ] Steps to recreate: 
         Download mp3 file from source below
         Upload mp3 file to WP Media
@@ -30,7 +32,8 @@ Time spent: **X** hours spent in total
   - [ ] Summary: 
     - Vulnerability types: XDD
     - Tested in version: 4.0
-  - [ ] GIF Walkthrough: ![](https://gfycat.com/ValuableInbornBrant)
+  - [ ] GIF Walkthrough: <img src="https://gfycat.com/ValuableInbornBrant" width="800">
+  ![](https://gfycat.com/ValuableInbornBrant)
   - [ ] Steps to recreate: 
         Make a comment on a post using a link
         Add an alert script at the end of the link: svg onload=alert(1)
