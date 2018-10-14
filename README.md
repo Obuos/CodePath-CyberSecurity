@@ -12,7 +12,9 @@ Time spent: 4 hours spent in total
     - Tested in version: 4.1
   - [x] GIF Walkthrough: ![](https://github.com/Obuos/CodePath-CyberSecurity/blob/master/week7a.gif)
   - [x] Steps to recreate: 
-        Add xss code to end of the url
+        
+       Add xss code to end of the url
+        
         ```
         <img src=1 onerror="alert(1)">
         ``` 
