@@ -28,7 +28,7 @@ Time spent: 4 hours spent in total
         Make a file over 20mb and name it Dinosaurs secret life img src=x onerror=alert(1)>.png
         Upload file into media
   - [x] Affected source code:
-    - [Link 1](https://sumofpwn.nl/advisory/2016/wordpress_audio_playlist_functionality_is_affected_by_cross_site_scripting.html)
+    - [Link 1](https://hackerone.com/reports/203515)
 3. (Required) User Enumeration
   - [x] Summary: 
     - Vulnerability types: User Enumeration from User Login
