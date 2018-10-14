@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: 4 hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -10,7 +10,7 @@ Time spent: **X** hours spent in total
   - [x] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.1
-  - [x] GIF Walkthrough: https://gfycat.com/TartEnchantedGallowaycow
+  - [x] GIF Walkthrough: ![](https://github.com/Obuos/CodePath-CyberSecurity/blob/master/week7a.gif)
   - [x] Steps to recreate: 
         Add xss code to end of the url
         ```
@@ -21,22 +21,20 @@ Time spent: **X** hours spent in total
        Use url: wp-content/themes/twentyfifteen/genericons/example.html#1
   - [x] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Large File Upload Error
+2. (Required) Large File Upload Error
   - [x] Summary: 
     - Vulnerability types: XSS
-    - Tested in version: 4.2.2
-  - [x] GIF Walkthrough: https://gfycat.com/OrnateFluffyDeinonychus
+    - Tested in version: 4.2.2![](https://github.com/Obuos/CodePath-CyberSecurity/blob/master/week7b.gif)
   - [x] Steps to recreate: 
         Make a file over 20mb and name it Dinosaurs secret life img src=x onerror=alert(1)>.png
         Upload file into media
   - [x] Affected source code:
     - [Link 1](https://sumofpwn.nl/advisory/2016/wordpress_audio_playlist_functionality_is_affected_by_cross_site_scripting.html)
-1. (Required) User Enumeration
+3. (Required) User Enumeration
   - [x] Summary: 
     - Vulnerability types: User Enumeartion from User Login
     - Tested in version :4.7.1
   - [x] GIF Walkthrough: ![](https://github.com/Obuos/CodePath-CyberSecurity/blob/master/week7c.gif)
-  https://gfycat.com/WaryBraveImperialeagle
   - [x] Steps to recreate: 
         Use login id: admin and any password; the system will say the password for user is incorrect
         Use login id: joe and any password; the system will say invalid username
