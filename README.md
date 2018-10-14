@@ -21,27 +21,25 @@ Time spent: **X** hours spent in total
        Use url: wp-content/themes/twentyfifteen/genericons/example.html#1
   - [x] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) XSS Authenticated Cross-Site Scripting with Media Files
+1. (Required) Large File Upload Error
   - [x] Summary: 
     - Vulnerability types: XSS
-    - Tested in version: 4.2.3
+    - Tested in version: 4.2.2
   - [x] GIF Walkthrough: https://gfycat.com/OrnateFluffyDeinonychus
   - [x] Steps to recreate: 
-        Download mp3 file from source below
-        Upload mp3 file to WP Media
-        Insert a playlist with the mp3 file into a post
+        Make a file over 20mb and name it Dinosaurs secret life img src=x onerror=alert(1)>.png
+        Upload file into media
   - [x] Affected source code:
     - [Link 1](https://sumofpwn.nl/advisory/2016/wordpress_audio_playlist_functionality_is_affected_by_cross_site_scripting.html)
-1. (Required) XSS Authenticated Cross-Site Scripting
+1. (Required) User Enumeration
   - [x] Summary: 
-    - Vulnerability types: XDD
-    - Tested in version: 4.0
-  - [x] GIF Walkthrough: https://gfycat.com/ValuableInbornBrant
+    - Vulnerability types: User Enumeartion from User Login
+  - [x] GIF Walkthrough: https://gfycat.com/WaryBraveImperialeagle
   - [x] Steps to recreate: 
-        Make a comment on a post using a link
-        Add an alert script at the end of the link: svg onload=alert(1)
+        Use login id: admin and any password; the system will say the password for user is incorrect
+        Use login id: joe and any password; the system will say invalid username
   - [x] Affected source code:
-    - [Link 1](https://wpvulndb.com/vulnerabilities/8358)
+    - [Link 1](https://www.exploit-db.com/exploits/41497/)
 
 ## Assets
 
