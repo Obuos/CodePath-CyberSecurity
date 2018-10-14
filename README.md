@@ -34,6 +34,7 @@ Time spent: **X** hours spent in total
 1. (Required) User Enumeration
   - [x] Summary: 
     - Vulnerability types: User Enumeartion from User Login
+    - Tested in version :4.7.1
   - [x] GIF Walkthrough: https://gfycat.com/WaryBraveImperialeagle
   - [x] Steps to recreate: 
         Use login id: admin and any password; the system will say the password for user is incorrect
