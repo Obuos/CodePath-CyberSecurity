@@ -6,51 +6,36 @@ Time spent: **X** hours spent in total
 
 ## Pentesting Report
 
-1. (Required) Vulnerability Name or ID
+1. (Required) XSS Unauthenticated Genericons Cross-Site Scripting
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.1
+  - [ ] GIF Walkthrough: ![](https://gfycat.com/TartEnchantedGallowaycow)
   - [ ] Steps to recreate: 
+        Add <img src=1 onerror="alert(1)" /> to the end of the url: wp-content/themes/twentyfifteen/genericons/example.html#1
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+1. (Required) XSS Authenticated Cross-Site Scripting with Media Files
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2.3
+  - [ ] GIF Walkthrough: ![](https://gfycat.com/OrnateFluffyDeinonychus)
   - [ ] Steps to recreate: 
+        Download mp3 file from source below
+        Upload mp3 file to WP Media
+        Insert a playlist with the mp3 file into a post
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+    - [Link 1](https://sumofpwn.nl/advisory/2016/wordpress_audio_playlist_functionality_is_affected_by_cross_site_scripting.html)
+1. (Required) XSS Authenticated Cross-Site Scripting
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+    - Vulnerability types: XDD
+    - Tested in version: 4.0
+  - [ ] GIF Walkthrough: ![](https://gfycat.com/ValuableInbornBrant)
   - [ ] Steps to recreate: 
+        Make a comment on a post using a link
+        Add an alert script at the end of the link: svg onload=alert(1)
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+    - [Link 1](https://wpvulndb.com/vulnerabilities/8358)
 
 ## Assets
 
