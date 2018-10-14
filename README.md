@@ -32,7 +32,7 @@ Time spent: 4 hours spent in total
     - [Link 1](https://sumofpwn.nl/advisory/2016/wordpress_audio_playlist_functionality_is_affected_by_cross_site_scripting.html)
 3. (Required) User Enumeration
   - [x] Summary: 
-    - Vulnerability types: User Enumeartion from User Login
+    - Vulnerability types: User Enumeration from User Login
     - Tested in version :4.7.1
   - [x] GIF Walkthrough: ![](https://github.com/Obuos/CodePath-CyberSecurity/blob/master/week7c.gif)
   - [x] Steps to recreate: 
