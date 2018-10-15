@@ -10,7 +10,7 @@ Time spent: 4 hours spent in total
   - [x] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.1
-  - [x] GIF Walkthrough: ![](https://github.com/Obuos/CodePath-CyberSecurity/blob/master/week7a2.gif)
+  - [x] GIF Walkthrough: ![](https://github.com/Obuos/CodePath-CyberSecurity/blob/master/week7a3.gif)
   - [x] Steps to recreate: 
         
        Add xss code to end of the url
