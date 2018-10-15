@@ -10,14 +10,14 @@ Time spent: 4 hours spent in total
   - [x] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.1
-  - [x] GIF Walkthrough: ![](https://github.com/Obuos/CodePath-CyberSecurity/blob/master/week7a.gif)
+  - [x] GIF Walkthrough: ![](https://github.com/Obuos/CodePath-CyberSecurity/blob/master/week7a2.gif)
   - [x] Steps to recreate: 
         
        Add xss code to end of the url
         
         <img src=1 onerror="alert(1)">
         
-       Use url: wpdistillery.dev/wp-content/themes/twentyfifteen/genericons/example.html#1
+       Use url: wpdistillery.vm/wp-content/themes/twentyfifteen/genericons/example.html#1
   - [x] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 2. (Required) Large File Upload Error
